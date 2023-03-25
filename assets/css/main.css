@@ -22,7 +22,78 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
 /*-------------------*/
+.header {
+  height: 8rem;
+  width: 100%;
+  background-color: #1d2126;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 41rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.header-logo:hover {
+  opacity: 0.7;
+}
+.header-navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  height: 100%;
+}
+.header-navbar-list .header-navbar-item {
+  display: block;
+  font-weight: 500;
+}
+.header-navbar-list .header-navbar-item:hover {
+  border-radius: 2px;
+  border: 1px solid #a4aead;
+}
+.header-navbar-list .header-navbar-item a {
+  width: 3rem;
+  height: 1rem;
+  padding: 0 5px;
+  color: #a4aead;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.header-navbar-list .header-navbar-item:first-child {
+  border-radius: 2px;
+  border: 1px solid #3cb878;
+}
+.header-navbar-list .header-navbar-item:first-child a {
+  color: #3cb878;
+}
+
 .wrapper {
   background-color: #3a454d;
 }
