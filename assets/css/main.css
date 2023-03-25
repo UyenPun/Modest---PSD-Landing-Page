@@ -385,3 +385,81 @@ button {
 .feature--list .image--feature {
   cursor: pointer;
 }
+
+.banner {
+  position: relative;
+  display: block;
+  height: 66rem;
+  color: #fff;
+  background-image: url(/assets/img/banner/banner_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content {
+  padding: 5rem 0;
+  position: absolute;
+  width: 1305px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.banner-content h2 {
+  font-size: 3.6rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 3.6rem;
+}
+.banner-content p {
+  display: block;
+  width: 64.5rem;
+  padding-bottom: 3.6rem;
+  font-size: 1.7;
+}
+.banner-btn button {
+  width: 12.5rem;
+  height: 4rem;
+  border-radius: 4px;
+  color: #fff;
+  background: content-box;
+  border: 2px solid #fff;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+}
+.banner-btn button:hover {
+  border: none;
+  background-color: #23b7a4;
+}
+
+.pagination {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 10px 18px;
+  color: #222;
+}
+
+.p2 a {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  padding: 0;
+  margin: auto 5px;
+  text-align: center;
+  position: relative;
+  background: content-box;
+  border: 2px solid #fff;
+}
+
+.p2 a:hover {
+  background-color: #fff;
+}
