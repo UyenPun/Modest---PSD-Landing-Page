@@ -12,6 +12,7 @@
     &-content {
         padding: 5rem 0;
         position: absolute;
+        width: 1305px;
         top: 50%;
         // left: 38rem;
         // right: 38rem;
@@ -28,6 +29,8 @@
         }
 
         p {
+            display: block;
+            width: 64.5rem;
             padding-bottom: 3.6rem;
             font-size: 1.7;
         }

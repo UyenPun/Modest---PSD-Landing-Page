@@ -285,6 +285,7 @@ body {
 .banner-content {
   padding: 5rem 0;
   position: absolute;
+  width: 1305px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -296,6 +297,8 @@ body {
   padding-bottom: 3.6rem;
 }
 .banner-content p {
+  display: block;
+  width: 64.5rem;
   padding-bottom: 3.6rem;
   font-size: 1.7;
 }
