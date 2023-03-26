@@ -1,0 +1,48 @@
+.app--part7{
+    height: 700px;
+    width: 100%;
+    background: #3a454d;
+
+}
+.container--part7{
+    width: 1166px;
+    height: 535px;
+    padding-top: 80px;
+    margin: auto;
+    padding-bottom: 112px;
+    color: white;
+    position: relative;
+    // background: pink;\
+}
+.title{
+    font-size: 2.4rem;
+    &::before {
+         margin-right: 1rem;
+        content: '';
+        border: 0.5rem solid #4e5a62;
+    }
+}
+.feature--list {
+    position: absolute;
+    margin-top: 5rem;
+    h3{
+        padding-top: 5rem;
+        opacity: 0.5;
+    }
+    p{
+        padding-top: 1rem;
+        line-height: 2.5rem;
+        opacity: 0.5;
+    }
+    .image--feature{
+    cursor: pointer;
+
+    }
+}
+// .image--feature{
+    // width: 100%;
+    // img {
+    //     width: 100%;
+    //     display: block;
+    // }
+// }
