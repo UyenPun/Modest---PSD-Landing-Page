@@ -1,4 +1,6 @@
-.wrapper {
+
+// ========== Vinh: Part 5 - START LOVELY WORK ===========
+.lovelyWork {
     background-color: #3a454d;
 }
 
@@ -28,34 +30,26 @@
         letter-spacing: 1px;
         transition: all 0.5s;
         &:hover {
-            opacity: 0.5;
+            color: #000;
+            border-color: #000;
         }
     }
 }
 
 .work__items {
     position: relative;
+    overflow: hidden;
     cursor: pointer;
+    &:hover &-detail {
+        transform: scale(1);
+    }
     &:hover &-title {
         opacity: 1;
-    }
-    &:hover &-detail {
-        opacity: 1;
+        transform: translateY(0);
     }
     img {
         width: 100%;
         display: block;
-    }
-    &-title {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: #292f36;
-        color: white;
-        width: 100%;
-        padding: 2rem;
-        opacity: 0;
-        transition: all 0.5s;
     }
     &-detail {
         position: absolute;
@@ -67,8 +61,20 @@
         background-color: rgba(0, 0, 0, 0.3);
         color: white;
         padding: 10rem 0;
-        opacity: 0;
-        transition: all 0.5s;
+        transform: scale(0);
+        transition: all 0.5s ease-in-out;
         font-size: 2.5rem;
     }
+    &-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #292f36;
+        color: white;
+        width: 100%;
+        padding: 2rem;
+        transform: translateY(100%);
+        transition: all 0.5s ease-in-out;
+    }
 }
+// ========== Vinh: Part 5 - END LOVELY WORK ==========
