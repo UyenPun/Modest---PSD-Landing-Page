@@ -572,8 +572,7 @@ footer {
   cursor: pointer;
 }
 .work__items:hover .work__items-detail {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  opacity: 1;
 }
 .work__items:hover .work__items-title {
   opacity: 1;
@@ -594,8 +593,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
   padding: 10rem 0;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   font-size: 2.5rem;
