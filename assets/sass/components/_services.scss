@@ -1,92 +1,61 @@
 /*SERVICES: */
-.app__part6 {
-  width: 100%;
-  height: 80rem;
-  padding-top: 8.1rem;
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.col-lg-3 {
+  flex: 0 0 auto;
+  width: 21%;
 }
 
 .services {
-  height: 60rem;
-  margin: 0 auto;
-
-  // title
-  &__title {
-    display: flex;
-    width: 100%;
-    height: 3.7rem;
-    margin-bottom: 95px;
-    line-height: 3.7rem;
-    padding-bottom: 4px;
-    &--icon {
-      margin-right: 1.4rem;
-      margin-top: -3px;
-    }
-    &--text {
-      font-weight: 500;
-      font-size: 3rem;
+  &-head {
+    h2 {
+      width: 82%;
+      height: 5rem;
+      line-height: 5rem;
+      margin-left: 14rem;
+      // background-color: pink;
+      margin-top: 8rem;
+      font-size: 2.5rem;
+      font-weight: 350;
+      text-transform: uppercase;
+      img {
+      }
     }
   }
 
-  // BOX:
-  &__boxs {
-    width: 100%;
-    height: 60rem;
-    &--box {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
-      height: 22rem;
+  &-list {
+    .services-box {
+      margin-bottom: 12rem;
+
+      &:first-child {
+        margin-top: 5.4rem;
+      }
+
+      .services-item {
+        img {
+          display: block;
+          margin: 0 auto;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        h2 {
+          text-align: center;
+          margin-top: 3rem;
+          margin-bottom: 2.5rem;
+        }
+
+        p {
+          color: #b0b1b3;
+          text-align: center;
+        }
+      }
     }
-    &--item {
-      width: 30.4rem;
-      height: 21.6rem;
-    }
-  }
-}
-
-.box--icon {
-  width: 30.4rem;
-  height: 5rem;
-  text-align: center;
-  margin-bottom: 1.5em;
-}
-
-.box--icon:hover {
-  cursor: pointer;
-}
-
-.box-title {
-  width: 30.4rem;
-  height: 2rem;
-  text-align: center;
-  margin-bottom: 2.2rem;
-  font-weight: 550;
-}
-
-.box-text {
-  width: 30.4rem;
-  height: 10rem;
-  color: #c6c7c9;
-  font-size: 1.7rem;
-  text-align: center;
-}
-
-// responsive:
-// mobile:
-@media only screen and (max-width: 739px) {
-  .services__boxs,
-  .services__title {
-    margin-left: 8rem;
-  }
-  .services__boxs--box:nth-child(1) {
-    height: 100rem;
-    margin-bottom: 2rem;
-  }
-}
-@media only screen and (min-width: 46.25em) and (max-width: 63.938em) {
-  .services__boxs--box:nth-child(1) {
-    height: 50rem;
-    margin-bottom: 3rem;
   }
 }
