@@ -281,12 +281,10 @@ body {
 
 .container--part7 {
   width: 1166px;
-  height: 535px;
   padding-top: 80px;
   margin: auto;
   padding-bottom: 112px;
   color: white;
-  position: relative;
 }
 
 .title {
@@ -299,7 +297,6 @@ body {
 }
 
 .feature--list {
-  position: absolute;
   margin-top: 5rem;
 }
 .feature--list h3 {
