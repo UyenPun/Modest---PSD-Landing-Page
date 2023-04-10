@@ -527,7 +527,8 @@ footer {
 .meet__card:hover .meet__card-text {
   background-color: #3a454d;
 }
-.meet__card:hover .meet__card-text h3, .meet__card:hover .meet__card-text p {
+.meet__card:hover .meet__card-text h3,
+.meet__card:hover .meet__card-text p {
   color: #fff;
 }
 
@@ -612,4 +613,33 @@ footer {
           transform: translateY(100%);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+.work__items-title h2 {
+  font-size: 2rem;
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media only screen and (max-width: 46.1875em) {
+  .work__items-detail-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 197.57px;
+    line-height: 15rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .work__items-title {
+    padding: 1rem;
+  }
+  .work__items-title h2 {
+    font-size: 1.6rem;
+  }
 }
