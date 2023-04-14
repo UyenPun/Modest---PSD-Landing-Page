@@ -495,8 +495,8 @@ footer {
   width: 100%;
   height: 100%;
   text-align: center;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .meet__card-icon img:hover {
   opacity: 0.9;
@@ -504,8 +504,9 @@ footer {
 .meet__card-text {
   background-color: #e1e6ea;
   padding: 15px 10px;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  height: 11rem;
 }
 .meet__card-text h3,
 .meet__card-text p {
@@ -516,6 +517,7 @@ footer {
 .meet__card-text h3 {
   color: #292f36;
   font-weight: 500;
+  height: 2.5rem;
 }
 .meet__card-text p {
   color: #a3a6a9;
