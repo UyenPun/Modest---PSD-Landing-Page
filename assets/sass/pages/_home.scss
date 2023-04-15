@@ -45,7 +45,7 @@
             width: 100%;
             height: 100%;
             text-align: center;
-            transition: all 0.7s ease-in-out;
+            transition: all 0.5s ease-in-out;
 
             & img:hover {
                 opacity: 0.9;
@@ -55,7 +55,8 @@
         &-text {
             background-color: #e1e6ea;
             padding: 15px 10px;
-            transition: all 0.7s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            height: 11rem;
 
             h3,
             p {
@@ -67,6 +68,7 @@
             h3 {
                 color: #292f36;
                 font-weight: 500;
+                height: 2.5rem;
             }
 
             p {
