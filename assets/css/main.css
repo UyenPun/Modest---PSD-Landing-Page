@@ -95,6 +95,9 @@ button {
 }
 
 /*SERVICES: */
+.services {
+  margin-bottom: 10rem;
+}
 .services-head h2 {
   width: 82%;
   height: 5rem;
@@ -104,6 +107,26 @@ button {
   font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+.services__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.services__title--text {
+  margin-left: 1rem;
+  line-height: 3.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.services__title:hover {
+  cursor: pointer;
 }
 .services-list .services-box {
   margin-bottom: 10rem;
@@ -126,6 +149,29 @@ button {
 .services-list .services-box .services-item p {
   color: #b0b1b3;
   text-align: center;
+}
+
+.box--icon,
+.box-title,
+.box-text {
+  text-align: center;
+}
+
+.box--icon {
+  margin-bottom: 2rem;
+}
+
+.box--icon :hover {
+  cursor: pointer;
+}
+
+.box-title {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.box-text {
+  color: #959699;
 }
 
 .app--part7 {
