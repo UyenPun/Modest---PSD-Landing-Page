@@ -1,16 +1,4 @@
 /*SERVICES: */
-.row {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.col-lg-3 {
-  flex: 0 0 auto;
-  width: 21%;
-}
-
 .services {
   &-head {
     h2 {
@@ -60,22 +48,3 @@
 }
 
 // RESPONSIVE:
-
-// tablet:
-@media screen and (min-width: 740px) and (max-width: 1023px) {
-  .col-lg-3 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 34%;
-  }
-}
-// mobile:
-@media screen and (max-width: 739px) {
-  .col-lg-3 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 60%;
-  }
-}
