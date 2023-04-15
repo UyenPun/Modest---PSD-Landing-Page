@@ -45,6 +45,7 @@
             width: 100%;
             height: 100%;
             text-align: center;
+            transition: all 0.5s ease-in-out;
 
             & img:hover {
                 opacity: 0.9;
@@ -54,7 +55,8 @@
         &-text {
             background-color: #e1e6ea;
             padding: 15px 10px;
-            transition: all 0.2s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            height: 11rem;
 
             h3,
             p {
@@ -66,6 +68,7 @@
             h3 {
                 color: #292f36;
                 font-weight: 500;
+                height: 2.5rem;
             }
 
             p {
@@ -78,9 +81,10 @@
             opacity: 1;
         }
 
-        &:hover &-text { 
+        &:hover &-text {
             background-color: #3a454d;
-            h3, p {
+            h3,
+            p {
                 color: #fff;
             }
         }
@@ -164,6 +168,39 @@
         padding: 2rem;
         transform: translateY(100%);
         transition: all 0.5s ease-in-out;
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}
+/* Mobile: width < 740px */
+@media (max-width: 576px) {
+    .container,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .work__items {
+        &-detail {
+            &-icon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: calc(253.95px - 56.38px);
+                line-height: 15rem;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+        }
+        &-title {
+            padding: 1rem;
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
     }
 }
 // ========== Vinh: Part 5 - END LOVELY WORK ==========
