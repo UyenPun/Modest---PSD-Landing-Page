@@ -4,7 +4,7 @@
 
 ```
 1. X
-2.
+2. Lưu Quý Kông
 3. Nguyễn Ngọc Thắng - làm phần 3
 4. Đoàn Minh Tân - làm phần 4
 5. Trần Quang Vinh - làm phần 5
