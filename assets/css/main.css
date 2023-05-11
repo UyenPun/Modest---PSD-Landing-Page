@@ -527,10 +527,14 @@ button {
 .contact__form input,
 .contact__form textarea {
   width: 100%;
-  outline: none;
+  resize: none;
   background: #eaeef1;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 5px;
+}
+.contact__form input:focus,
+.contact__form textarea:focus {
+  outline: #0EA293 solid 1px;
 }
 .contact__form input {
   height: 44px;
@@ -545,6 +549,20 @@ button {
   border-radius: 5px;
 }
 
+/* Mobile: width < 740px */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .contact__info {
+    padding: 10px;
+  }
+  .contact__info p {
+    margin-top: 20px;
+  }
+  .contact__form {
+    position: initial;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+}
 footer {
   padding: 40px;
   background-color: #3a454d;
